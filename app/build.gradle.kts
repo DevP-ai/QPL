@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kotlinSerilization)
 }
 
 android {
@@ -56,4 +57,11 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    //splash screen api sdk
+    implementation(libs.androidx.core.splashscreen)
+    //compose navigation
+    implementation(libs.androidx.navigation.compose)
+    //serialization
+    implementation(libs.kotlin.serilization)
 }
