@@ -1,4 +1,4 @@
-package com.golpo.ai.`in`.qpl.ui.theme
+package com.golpo.ai.`in`.qpl.foundation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
