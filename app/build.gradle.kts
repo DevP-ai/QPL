@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    alias(libs.plugins.kotlinSerilization)
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
@@ -63,5 +63,5 @@ dependencies {
     //compose navigation
     implementation(libs.androidx.navigation.compose)
     //serialization
-    implementation(libs.kotlin.serilization)
+    implementation(libs.kotlin.serialization)
 }
