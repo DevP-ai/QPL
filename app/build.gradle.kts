@@ -64,4 +64,17 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     //serialization
     implementation(libs.kotlin.serialization)
+
+    //Ktor
+    implementation(libs.ktor.client.core)
+    implementation(libs.ktor.client.android)
+    implementation(libs.ktor.client.content.negotiation)
+    implementation(libs.ktor.serialization.kotlinx.json)
+
+    //Koin
+    implementation(libs.koin.android)
+    implementation(libs.koin.androidx.compose)
+
+    //ViewModel
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
 }
